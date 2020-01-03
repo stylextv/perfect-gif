@@ -47,6 +47,7 @@ public class Main {
 				}
 			}
 			
+			writer.close();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			System.exit(0);
